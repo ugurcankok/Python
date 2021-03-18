@@ -1,2 +1,2 @@
-# OpenCv_Tutorial
+# OpenCv
 OpenCv Exercise
