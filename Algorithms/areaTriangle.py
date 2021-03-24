@@ -3,6 +3,6 @@
 a=int(input("Enter one side of triangle:"))
 h=int(input("Enter height of triangle:"))
 
-area=1/2*a*h
+area= (a*h) /2 
 
 print("Area of triangle is:",area)
