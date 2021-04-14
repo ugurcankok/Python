@@ -1,2 +1,0 @@
-# OpenCv
-OpenCv Exercise
