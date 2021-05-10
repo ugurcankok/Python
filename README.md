@@ -4,10 +4,10 @@ Python is a general-purpose, versatile, and powerful programming language. It’
 
 ### What is Python Used For?
 
-* **GENERAL WEB DEVELOPMENT
-* **SCIENTIFIC COMPUTING + DATA SCIENCE
-* **MACHINE LEARNING
-* **GAME DEVELOPMENT
+* **GENERAL WEB DEVELOPMENT**
+* **SCIENTIFIC COMPUTING + DATA SCIENCE**
+* **MACHINE LEARNING**
+* **GAME DEVELOPMENT**
 
 You can look at my work on Python in this repository.
 
