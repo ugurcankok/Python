@@ -12,7 +12,7 @@ Python is a general-purpose, versatile, and powerful programming language. It’
 
 You can look at my work on Python in this repository.
 
-In this repository, you will find my works in src folder:
+In this repository, you will find my works in ***src*** folder:
 
 * ### [Algorithms](https://github.com/ugurcankok/Python/tree/master/src/Algorithms)
  
