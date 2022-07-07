@@ -1,6 +1,6 @@
-a=int(input("Enter your number:"))
+a = int(input("Enter your number:"))
 
-if a%2==0:
+if a % 2 == 0:
     print("Your number is even!")
 else:
     print("Your number is odd!")

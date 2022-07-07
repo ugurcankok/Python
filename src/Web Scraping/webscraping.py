@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 import json
 
+
 class MedlineScraper:
 
     def __init__(self):
@@ -25,7 +26,8 @@ class MedlineScraper:
 
     def get_drug_links(self, source):
         drug_elements = source.find("ul", attrs={"id": "index"}).find_all("li")
-        drug_links = list(map(lambda drug: self.base_url + drug.find("a").get("href").replace(".", "", 1), drug_elements))
+        drug_links = list(
+            map(lambda drug: self.base_url + drug.find("a").get("href").replace(".", "", 1), drug_elements))
         return set(drug_links)
 
     def find_all_drug_links(self):
@@ -37,11 +39,11 @@ class MedlineScraper:
             self.drug_links = self.drug_links.union(self.get_drug_links(category_source))
         return self.drug_links
 
-    def get_name(self,source):
-       try:
-           return source.find("h1", attrs={"class":"with-also"}).text
-       except Exception:
-           return None
+    def get_name(self, source):
+        try:
+            return source.find("h1", attrs={"class": "with-also"}).text
+        except Exception:
+            return None
 
     def scrape_drugs(self):
         result = list()
@@ -57,9 +59,10 @@ class MedlineScraper:
             ))
         return result
 
-    def write_as_json(self,data):
-        with open("results.json","w", encoding="UTF-8") as f:
+    def write_as_json(self, data):
+        with open("results.json", "w", encoding="UTF-8") as f:
             f.write(json.dumps(data, indent=2))
+
 
 if __name__ == "__main__":
     scrapper = MedlineScraper()

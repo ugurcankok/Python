@@ -1,11 +1,12 @@
 from abc import ABC, abstractmethod
 
+
 class Shape(ABC):
     '''
     Shape = super class / abstract class
     '''
 
-    #abstract method
+    # abstract method
     @abstractmethod
     def area(self):
         pass
@@ -14,20 +15,21 @@ class Shape(ABC):
     def perimeter(self):
         pass
 
-    #override and polymorphism
+    # override and polymorphism
     def toString(self):
         pass
 
+
 class Square(Shape):
-    def __init__(self,edge):
-        self.__edge = edge #__ demek private yapmak demektir ve encapsulation yapmış oluyorsun.
+    def __init__(self, edge):
+        self.__edge = edge  # __ ıt means that variable will be private, encapsulation.
 
     def area(self):
-        result = self.__edge**2
+        result = self.__edge ** 2
         print("Square area is equal to ", result)
 
     def perimeter(self):
-        result =  self.__edge*4
+        result = self.__edge * 4
         print("Square perimeter is equal to ", result)
 
     def toString(self):
@@ -35,18 +37,17 @@ class Square(Shape):
 
 
 class Circle(Shape):
+    PI = 3.14  # constant
 
-    PI = 3.14 #büyük harfle yazıldı ve constant oluyor.
-
-    def __init__(self,radius):
+    def __init__(self, radius):
         self.__radius = radius
 
     def area(self):
-        result = self.PI*self.__radius**2
+        result = self.PI * self.__radius ** 2
         print("Circle area is equal to ", result)
 
     def perimeter(self):
-        result = 2*self.PI*self.__radius
+        result = 2 * self.PI * self.__radius
         print("Circle perimeter is equal to ", result)
 
     def toString(self):
