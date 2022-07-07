@@ -3,7 +3,7 @@ inputNumbers = int(input("How many number will you enter:"))
 myLists = []
 
 for inputNumber in range(0, inputNumbers):
-    item = int(input(f"{inputNumber + 1}. giriniz:"))
+    item = int(input(f"{inputNumber + 1}. enter:"))
     myLists.append(item)
 
 firstIndex = int(input("Please enter your first index:"))
