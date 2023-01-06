@@ -45,8 +45,4 @@ In this repository, you will find my works in ***src*** folder:
   * [Rent a Vehicle](https://github.com/ugurcankok/Python/tree/master/src/OOP/Rent%20a%20Vehicle)
   * [Inheritance](https://github.com/ugurcankok/Python/tree/master/src/OOP/inheritance)
 
-* ### [OpenCv](https://github.com/ugurcankok/Python/tree/master/src/OpenCv)
-  * [Face and Eyes Recognition](https://github.com/ugurcankok/Python/tree/master/src/OpenCv/Face%20and%20Eyes%20Recognition)
-  * [Fundamentals](https://github.com/ugurcankok/Python/tree/master/src/OpenCv/Fundamentals)
-
 * ### [Web Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping)
