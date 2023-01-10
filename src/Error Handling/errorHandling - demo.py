@@ -30,7 +30,7 @@ while True:
 
 # demo #3
 
-# get dictionary key value, write a function. İf key doesn't exist in our dictionary return None otherwise return value
+# get dictionary key value, write a function. If key doesn't exist in our dictionary return None otherwise return value
 
 ourDict = {"productName": "iphone13"}
 
