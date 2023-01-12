@@ -16,7 +16,7 @@ def div(num1, num2):
 
 def menu():
     print("1-Summation")
-    print("2-Substraction")
+    print("2-Subtraction")
     print("3-Multiplication")
     print("4-Division")
 

@@ -15,7 +15,7 @@ elif delta == 0:
     root1 = (-b + math.sqrt(delta)) / 2 * a
     print("Two roots are equal and value is:", root1)
 else:
-    print("There is two diffrent root")
+    print("There is two different root")
     root2 = (-b + math.sqrt(delta)) / 2 * a
     root3 = (-b - math.sqrt(delta)) / 2 * a
     print("One root is:", root2)
