@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class Shape(ABC):
-    '''
+    """
     Shape = super class / abstract class
-    '''
+    """
 
     # abstract method
     @abstractmethod
@@ -22,7 +22,7 @@ class Shape(ABC):
 
 class Square(Shape):
     def __init__(self, edge):
-        self.__edge = edge  # __ ıt means that variable will be private, encapsulation.
+        self.__edge = edge  # __ It means that variable will be private, encapsulation.
 
     def area(self):
         result = self.__edge ** 2
