@@ -1,36 +1,34 @@
-class Calisan():
-    def __init__(self, isim, maas, departman):
-        print("Çalışan Sınıfının Yapıcı Fonksiyonu")
-        self.isim = isim
-        self.maas = maas
-        self.departman = departman
+class Worker:
+    def __init__(self, name, salary, department):
+        self.name = name
+        self.salary = salary
+        self.department = department
 
-    def bilgilerigoster(self):
-        print("Çalışan sınıfının bilgileri gösteriliyor.....")
-        print("İsim: ", self.isim, " Maas: ", self.maas, " Departman: ", self.departman)
+    def showInformation(self):
+        print("Showing the Information.....")
+        print("Name: ", self.name, " Salart: ", self.salary, " Department: ", self.department)
 
-    def maasazamyap(self, zam_miktari):
-        print("Maasa zam yapıldı...")
-        self.maas += zam_miktari
+    def raiseAmount(self, raise_amount):
+        print("Your salary is raising...")
+        self.salary += raise_amount
 
-    def departmandegistir(self, yeni_departman):
-        print("Departman değiştiriliyor....")
-        self.departman = yeni_departman
+    def changeDepartment(self, new_department):
+        print("Changing the your department....")
+        self.department = new_department
 
 
-class Yonetici(Calisan):
-    def __init__(self, isim, maas, departman, kisi_sayisi):
+class Executive(Worker):
+    def __init__(self, name, salary, department, numberOfPeople):
         # overriding
-        print("Yönetici sınıfının yapıcı fonksiyonu")
-        super().__init__(isim, maas, departman)
-        self.kisi_sayisi = kisi_sayisi  # another property
+        super().__init__(name, salary, department)
+        self.numberOfPeople = numberOfPeople  # add another property
 
-    def bilgilerigoster(self):
+    def showInformation(self):
         # overriding
-        print("Yönetici sınıfının bilgileri gösteriliyor...")
-        print("İsim: ", self.isim, " Maas: ", self.maas, " Departman: ", self.departman, "Kisi sayısı: ",
-              self.kisi_sayisi)
+        print("Showing the Informations For Execute Level...")
+        print("Name: ", self.name, " Salary: ", self.salary, " Department: ", self.department, " Number of People: ",
+              self.numberOfPeople)
 
 
-yonetici = Yonetici("ugur", 5000, "Computer", 20)
-yonetici.bilgilerigoster()
+executive = Executive("ugur", 5000, "Computer", 20)
+executive.showInformation()
