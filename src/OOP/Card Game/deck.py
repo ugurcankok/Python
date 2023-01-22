@@ -1,4 +1,5 @@
 from card import Card
+from random import shuffle
 
 
 class Deck:
@@ -8,6 +9,26 @@ class Deck:
 
     def __init__(self):
         self.cards = [Card(cardType, cardValue) for cardType in Deck.cardTypes for cardValue in Deck.cardValues]
+
+    def countCard(self):
+        return len(self.cards)
+
+    def shuffleCards(self):
+        if self.countCard() < 52:
+            raise ValueError("You can shuffle the cards without breaking the deck.")
+        shuffle(self.cards)
+
+    def dealCards(self, piece):
+        count_card = self.countCard()
+        if count_card == 0:
+            raise ValueError("All cards are dealt.")
+        piece = min([count_card, piece])
+        cards = self.cards[-piece:]
+        self.cards = self.cards[:-piece]
+        return cards
+
+    def throwCard(self):
+        return self.dealCards(1)[0]
 
 
 deck = Deck()
