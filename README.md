@@ -35,6 +35,8 @@ In this repository, you will find my works in ***src*** folder:
   * [Find Root of Equation](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/rootsOfEquation.py)
   * [Find Sum of Between Numbers](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/sumOfNumbers.py)
 
+* ### [Built-in Functions](https://github.com/ugurcankok/Python/tree/master/src/Built-in%20Functions)
+
 * ### [List](https://github.com/ugurcankok/Python/tree/master/src/List)
   * [Change Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/ChangeElementOfList.py)
   * [Find Max and Min Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/FindMaxandMinElementOfList.py)
