@@ -15,9 +15,10 @@ You can look at my work on Python in this repository.
 In this repository, you will find my works in ***src*** folder:
 
 * ### [Algorithms](https://github.com/ugurcankok/Python/tree/master/src/Algorithms)
-  * [Find Area and Perimeter of Rectangle](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/areaAndPerimeterOfRectangle.py)
+  * [Find area and Perimeter of Rectangle](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/areaAndPerimeterOfRectangle.py)
   * [Find Area and Perimeter of Square](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/areaAndPerimeterOfSquare.py)
   * [Find Area and Volume of Sphere](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/volumeAreaOfSphere.py)
+  * [Arithmetic Operation](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/arithmeticOperation.py)
   * [Find Area of Triangle](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/areaTriangle.py)
   * [Calculator](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/calculator.py)
   * [Comparison of Two Numbers](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/comparisonOfTwoNumbers.py)
@@ -36,15 +37,40 @@ In this repository, you will find my works in ***src*** folder:
   * [Find Sum of Between Numbers](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/sumOfNumbers.py)
 
 * ### [Built-in Functions](https://github.com/ugurcankok/Python/tree/master/src/Built-in%20Functions)
+  * [Filter Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/filterFunction.py)
+  * [Lambda Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/lambdaFunctions.py)
+  * [Map Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/mapFunction.py)
+  * [Set Data ](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/setDataType.py)
+  * [Sorted Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/sortedFunction.py)
+
+* ### [Database](https://github.com/ugurcankok/Python/tree/master/src/Database)
+  * [MongoDB](https://github.com/ugurcankok/Python/tree/master/src/Database/MongoDB) 
+  * [PostgreSQL](https://github.com/ugurcankok/Python/tree/master/src/Database/PostgreSQL) 
+  * [SQLite](https://github.com/ugurcankok/Python/tree/master/src/Database/SQLite) 
+
+* ### [Error Handling](https://github.com/ugurcankok/Python/tree/master/src/Error%20Handling)
+
+* ### [FastAPI](https://github.com/ugurcankok/Python/tree/master/src/FastAPI)
+  * [CRUD API Endpoints](https://github.com/ugurcankok/Python/tree/master/src/FastAPI/CRUD%20API%20Endpoints)
+  * [CRUD API SQLModel](https://github.com/ugurcankok/Python/tree/master/src/FastAPI/CRUD%20API%20SQLModel)
+
+* ### [Generators](https://github.com/ugurcankok/Python/tree/master/src/Generators)
+
+* ### [Iterators](https://github.com/ugurcankok/Python/tree/master/src/Iterators)
 
 * ### [List](https://github.com/ugurcankok/Python/tree/master/src/List)
   * [Change Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/ChangeElementOfList.py)
   * [Find Max and Min Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/FindMaxandMinElementOfList.py)
+  * [List Comprehension](https://github.com/ugurcankok/Python/blob/master/src/List/listComprehension.py)
   * [Reverse List](https://github.com/ugurcankok/Python/blob/master/src/List/ReverseList.py)
 
 * ### [OOP](https://github.com/ugurcankok/Python/tree/master/src/OOP)
+  * [Business Levels](https://github.com/ugurcankok/Python/tree/master/src/OOP/Business%20Levels)
+  * [Card Game](https://github.com/ugurcankok/Python/tree/master/src/OOP/Card%20Game)
+  * [Class Method](https://github.com/ugurcankok/Python/tree/master/src/OOP/Class%20Method)
   * [Geometric Shapes](https://github.com/ugurcankok/Python/tree/master/src/OOP/Geometric%20Shapes)
+  * [Quiz App](https://github.com/ugurcankok/Python/tree/master/src/OOP/Quiz%20App)
   * [Rent a Vehicle](https://github.com/ugurcankok/Python/tree/master/src/OOP/Rent%20a%20Vehicle)
-  * [Inheritance](https://github.com/ugurcankok/Python/tree/master/src/OOP/inheritance)
 
-* ### [Web Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping)
+* ### [Web Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping/Medical%20Scraping)
+  * [Medical Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping/Medical%20Scraping)
