@@ -5,8 +5,7 @@ def add_user(first_name, last_name):
         csv_writer = csv.writer(file)
         csv_writer.writerow([first_name,last_name])
 
-print(add_user("ugur","can"))
-
+add_user("ugur","can")
 def get_users():
     with open("users.csv") as file:
         csv_reader = csv.DictReader(file) # return format is dictionary, you can use delimiter (ex. delimiter = "|")
@@ -14,7 +13,6 @@ def get_users():
             print(f'{user["FirstName"]} {user["LastName"]}')
 
 get_users()
-
 def find_user(first_name,last_name):
     with open("users.csv") as file:
         csv_reader = csv.reader(file) # return format is list
@@ -24,7 +22,6 @@ def find_user(first_name,last_name):
         return -1
 
 find_user("ugur","can")
-
 def update_users(f_name,l_name,new_first,new_last):
     with open('users.csv') as file:
         csv_reader = csv.reader(file)
