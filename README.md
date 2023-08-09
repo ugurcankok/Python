@@ -45,11 +45,6 @@ In this repository, you will find my works in ***src*** folder:
   
 * ### [CSV File Operations](https://github.com/ugurcankok/Python/tree/master/src/CSV%20File)
 
-* ### [Database](https://github.com/ugurcankok/Python/tree/master/src/Database)
-  * [MongoDB](https://github.com/ugurcankok/Python/tree/master/src/Database/MongoDB) 
-  * [PostgreSQL](https://github.com/ugurcankok/Python/tree/master/src/Database/PostgreSQL) 
-  * [SQLite](https://github.com/ugurcankok/Python/tree/master/src/Database/SQLite) 
-
 * ### [Decorators](https://github.com/ugurcankok/Python/tree/master/src/Decorators)
   * [Return Function](https://github.com/ugurcankok/Python/blob/master/src/Decorators/returnFunction.py)
   * [Decorators](https://github.com/ugurcankok/Python/blob/master/src/Decorators/decorators.py)
@@ -57,10 +52,6 @@ In this repository, you will find my works in ***src*** folder:
   * [Parameter to Decorators](https://github.com/ugurcankok/Python/blob/master/src/Decorators/decoratorsArgs.py)
 
 * ### [Error Handling](https://github.com/ugurcankok/Python/tree/master/src/Error%20Handling)
-
-* ### [FastAPI](https://github.com/ugurcankok/Python/tree/master/src/FastAPI)
-  * [CRUD API Endpoints](https://github.com/ugurcankok/Python/tree/master/src/FastAPI/CRUD%20API%20Endpoints)
-  * [CRUD API SQLModel](https://github.com/ugurcankok/Python/tree/master/src/FastAPI/CRUD%20API%20SQLModel)
 
 * ### [Generators](https://github.com/ugurcankok/Python/tree/master/src/Generators)
 
@@ -71,14 +62,3 @@ In this repository, you will find my works in ***src*** folder:
   * [Find Max and Min Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/FindMaxandMinElementOfList.py)
   * [List Comprehension](https://github.com/ugurcankok/Python/blob/master/src/List/listComprehension.py)
   * [Reverse List](https://github.com/ugurcankok/Python/blob/master/src/List/ReverseList.py)
-
-* ### [OOP](https://github.com/ugurcankok/Python/tree/master/src/OOP)
-  * [Business Levels](https://github.com/ugurcankok/Python/tree/master/src/OOP/Business%20Levels)
-  * [Card Game](https://github.com/ugurcankok/Python/tree/master/src/OOP/Card%20Game)
-  * [Class Method](https://github.com/ugurcankok/Python/tree/master/src/OOP/Class%20Method)
-  * [Geometric Shapes](https://github.com/ugurcankok/Python/tree/master/src/OOP/Geometric%20Shapes)
-  * [Quiz App](https://github.com/ugurcankok/Python/tree/master/src/OOP/Quiz%20App)
-  * [Rent a Vehicle](https://github.com/ugurcankok/Python/tree/master/src/OOP/Rent%20a%20Vehicle)
-
-* ### [Web Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping/Medical%20Scraping)
-  * [Medical Scraping](https://github.com/ugurcankok/Python/tree/master/src/Web%20Scraping/Medical%20Scraping)
