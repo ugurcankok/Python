@@ -1,15 +1,5 @@
 # Python Repository
 
-Python is a general-purpose, versatile, and powerful programming language. It’s a great language because it’s easy to read. From web development to machine learning to data science, Python is the language for you.
-
-### What is Python Used For?
-
-* **General Web Development**
-* **Scientific Computing**
-* **Data Science**
-* **Machine Learning**
-* **Game Development**
-
 You can look at my work on Python in this repository.
 
 In this repository, you will find my works in ***src*** folder:
