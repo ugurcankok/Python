@@ -4,16 +4,6 @@ You can look at my work on Python in this repository.
 
 In this repository, you will find my works in ***src*** folder:
 
-* ### [Algorithms](https://github.com/ugurcankok/Python/tree/master/src/Algorithms)
-  * [Factorial](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/factorial.py)
-  * [Factorial with Function](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/factorialWithFunctions.py)
-  * [Fibonacci](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/fibonacci.py)
-  * [Find Sum of Number](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/findSumOfGivenNumber.py)
-  * [Find Permutations](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/permutations.py)
-  * [Find Power of Number](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/powerNumber.py)
-  * [Find Prime Number](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/primeNumber.py)
-  * [Find Reverse of Number](https://github.com/ugurcankok/Python/blob/master/src/Algorithms/reverseOfNumber.py)
-
 * ### [Built-in Functions](https://github.com/ugurcankok/Python/tree/master/src/Built-in%20Functions)
   * [Filter Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/filterFunction.py)
   * [Lambda Function](https://github.com/ugurcankok/Python/blob/master/src/Built-in%20Functions/lambdaFunctions.py)
@@ -28,15 +18,3 @@ In this repository, you will find my works in ***src*** folder:
   * [Decorators](https://github.com/ugurcankok/Python/blob/master/src/Decorators/decorators.py)
   * [Decorators Parameter](https://github.com/ugurcankok/Python/blob/master/src/Decorators/decoaratorsParameter.py)
   * [Parameter to Decorators](https://github.com/ugurcankok/Python/blob/master/src/Decorators/decoratorsArgs.py)
-
-* ### [Error Handling](https://github.com/ugurcankok/Python/tree/master/src/Error%20Handling)
-
-* ### [Generators](https://github.com/ugurcankok/Python/tree/master/src/Generators)
-
-* ### [Iterators](https://github.com/ugurcankok/Python/tree/master/src/Iterators)
-
-* ### [List](https://github.com/ugurcankok/Python/tree/master/src/List)
-  * [Change Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/changeElementOfList.py)
-  * [Find Max and Min Element of List](https://github.com/ugurcankok/Python/blob/master/src/List/findMaxandMinElementOfList.py)
-  * [List Comprehension](https://github.com/ugurcankok/Python/blob/master/src/List/listComprehension.py)
-  * [Reverse List](https://github.com/ugurcankok/Python/blob/master/src/List/reverseList.py)
